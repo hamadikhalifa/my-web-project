@@ -1,5 +1,5 @@
 #contact {
-    background: #111;  /* Dark background for a nightclub feel */
+    background: #111;  /
     color: #fff;
     text-align: center;
     padding: 50px 20px;
@@ -16,9 +16,9 @@
     margin-top: 20px;
 }
 
-/* Email Link */
+
 #contact a {
-    color: #ff4757; /* Vibrant nightclub color */
+    color: #ff4757; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -27,7 +27,7 @@
     text-decoration: underline;
 }
 
-/* Contact Form Styling */
+
 form {
     max-width: 500px;
     margin: auto;
@@ -37,7 +37,7 @@ form {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
-/* Labels */
+
 form label {
     display: block;
     text-align: left;
@@ -45,7 +45,7 @@ form label {
     margin-bottom: 5px;
 }
 
-/* Input Fields */
+
 form input, form textarea {
     width: 100%;
     padding: 10px;
@@ -56,12 +56,12 @@ form input, form textarea {
     color: #fff;
 }
 
-/* Placeholder Text */
+
 form input::placeholder, form textarea::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* Submit Button */
+
 form button {
     width: 100%;
     padding: 12px;
@@ -70,20 +70,20 @@ form button {
     background: #ff4757;
     color:
 
-    /* HEADER STYLING */
+
 header {
-    position: fixed;  /* Keep at top */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    background: rgba(0, 0, 0, 0.8); 
     color: white;
     text-align: center;
     padding: 10px 0;
-    z-index: 1000; /* Ensure it stays above other elements */
+    z-index: 1000; 
 }
 
-/* TITLE STYLING */
+
 header h1 {
     margin: 0;
     font-size: 28px;
@@ -91,14 +91,14 @@ header h1 {
     text-transform: uppercase;
 }
 
-/* NAVIGATION MENU */
+
 nav ul {
     list-style: none;
     padding: 0;
     margin-top: 10px;
     display: flex;
-    justify-content: center; /* Align menu items in center */
-    gap: 20px; /* Space between menu items */
+    justify-content: center; 
+    gap: 20px; 
 }
 
 nav ul li {
@@ -115,29 +115,28 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #ff4757; /* Highlight effect on hover */
+    background: #ff4757; 
     border-radius: 5px;
 }
 
-/* HEADER STYLING */
+
 header {
-    position: fixed;  /* Stays at the top */
+    position: fixed
     top: 0;  
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.9); /* Semi-transparent black */
+    background: rgba(0, 0, 0, 0.9); 
     color: white;
     text-align: center;
     padding: 10px 0;
-    z-index: 1000; /* Keeps it above other content */
+    z-index: 1000; 
 }
 
-/* Push the rest of the page down */
+
 body {
-    padding-top: 80px; /* Adjust based on header height */
-}
+    padding-top: 80px
 
-/* TITLE STYLING */
+
 header h1 {
     margin: 0;
     font-size: 28px;
@@ -145,14 +144,14 @@ header h1 {
     text-transform: uppercase;
 }
 
-/* NAVIGATION MENU */
+
 nav ul {
     list-style: none;
     padding: 0;
     margin-top: 10px;
     display: flex;
-    justify-content: center; /* Align menu items in center */
-    gap: 20px; /* Space between menu items */
+    justify-content: center; 
+    gap: 20px; 
 }
 
 nav ul li {
@@ -169,26 +168,26 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #ff4757; /* Highlight effect on hover */
+    background: #ff4757; 
     border-radius: 5px;
 }
 
-/* HEADER STYLING */
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Dark glass effect */
-    backdrop-filter: blur(10px); /* Smooth blur effect */
+    background: rgba(0, 0, 0, 0.7); 
+    backdrop-filter: blur(10px); 
     color: white;
     text-align: center;
     padding: 15px 0;
     z-index: 1000;
-    box-shadow: 0px 4px 10px rgba(255, 0, 150, 0.5); /* Neon shadow */
+    box-shadow: 0px 4px 10px rgba(255, 0, 150, 0.5); 
 }
 
-/* TITLE STYLING (GLOWING EFFECT) */
+
 header h1 {
     margin: 0;
     font-size: 32px;
@@ -204,7 +203,7 @@ header h1:hover {
     text-shadow: 0 0 15px rgba(255, 255, 0, 0.9), 0 0 30px rgba(255, 255, 0, 0.7);
 }
 
-/* NAVIGATION MENU */
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -229,13 +228,13 @@ nav ul li a {
     position: relative;
 }
 
-/* HOVER EFFECT */
+
 nav ul li a:hover {
     background: rgba(255, 0, 150, 0.7);
     box-shadow: 0 0 10px rgba(255, 0, 150, 0.7), 0 0 20px rgba(255, 0, 150, 0.5);
 }
 
-/* UNDERLINE HOVER EFFECT */
+
 nav ul li a::after {
     content: '';
     position: absolute;
@@ -252,39 +251,39 @@ nav ul li a:hover::after {
     left: 0;
 }
 
-/* Enable smooth scrolling for the whole page */
+
 html {
     scroll-behavior: smooth;
 }
 
-/* BACK TO TOP BUTTON */
+
 #backToTop {
     position: fixed;
     bottom: 30px;
     right: 30px;
     width: 50px;
     height: 50px;
-    background: rgba(255, 0, 150, 0.8); /* Neon pink */
+    background: rgba(255, 0, 150, 0.8); 
     color: white;
     font-size: 24px;
     font-weight: bold;
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    display: none; /* Hidden by default */
+    display: none; 
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 15px rgba(255, 0, 150, 0.6);
     transition: all 0.3s ease-in-out;
 }
 
-/* Hover effect */
+
 #backToTop:hover {
     background: rgb(116, 30, 80);
     box-shadow: 0 0 20px rgb(94, 255, 0);
 }
 
-/* PRELOADER STYLING */
+
 #preloader {
     position: fixed;
     width: 100%;
@@ -300,7 +299,7 @@ html {
     z-index: 2000;
 }
 
-/* LOADER ANIMATION */
+
 .loader {
     width: 50px;
     height: 50px;
@@ -311,38 +310,38 @@ html {
     margin-bottom: 10px;
 }
 
-/* SPINNING EFFECT */
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
-/* FADE-OUT EFFECT */
+
 .fade-out {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     pointer-events: none;
 }
 
-/* NAVIGATION MENU */
+
 nav {
     width: 100%;
     display: flex;
-    justify-content: center; /* Center the menu */
-    background: rgba(0, 0, 0, 0.8); /* Slight transparency */
-    padding: 10px 0;
+    justify-content: center; 
+    background: rgba(0, 0, 0, 0.8); 
+        padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Ensure items are in a row */
-    gap: 30px; /* Space between menu items */
+    display: flex; 
+    gap: 30px; 
 }
 
 nav ul li {
-    display: inline-block; /* Keep all items on the same line */
+    display: inline-block; 
 }
 
 nav ul li a {
@@ -354,14 +353,14 @@ nav ul li a {
     transition: 0.3s ease-in-out;
 }
 
-/* HOVER EFFECT */
+
 nav ul li a:hover {
     background: rgba(255, 0, 150, 0.7);
     border-radius: 5px;
 }
 
 nav ul {
-    display: flex !important; /* Force it to be in one line */
+    display: flex !important; 
     flex-direction: row !important;
     justify-content: center;
     align-items: center;
@@ -370,7 +369,7 @@ nav ul {
     margin: 0;
 }
 
-/* FOOTER STYLING */
+
 .footer-container {
     background: black;
     color: white;
@@ -382,14 +381,14 @@ nav ul {
     font-size: 16px;
 }
 
-/* Add spacing inside footer */
+
 .footer-container p {
     margin: 0;
     padding: 10px;
 }
 
 .footer-container {
-    background: #ff0095; /* Neon Pink */
+    background: #ff0095; 
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -408,7 +407,7 @@ nav ul {
 
 .hero {
     text-align: center;
-    background: #000; /* Black background */
+    background: #000; 
     color: white;
     padding: 50px 20px;
     font-size: 1.5em;
@@ -504,11 +503,11 @@ button {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row; /* Ensures items are displayed in a row */
+    flex-direction: row; 
 }
 
 .menu li {
-    margin: 0 15px; /* Adjust margin between items */
+    margin: 0 15px; 
 }
 
 .menu a {
@@ -524,26 +523,26 @@ button {
     color: black;
 }
 
-/* Remove default padding and margin */
+
 body, ul {
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333; /* Dark background */
+    background-color: #333;
     padding: 15px 0;
 }
 
 .nav-menu {
-    display: flex; /* Enables Flexbox */
-    justify-content: center; /* Centers items horizontally */
-    list-style: none; /* Removes bullet points */
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
     padding: 0;
 }
 
 .nav-menu li {
-    margin: 0 20px; /* Space between menu items */
+    margin: 0 20px; 
 }
 
 .nav-menu a {
@@ -556,17 +555,17 @@ header {
 }
 
 .nav-menu a:hover {
-    color: #ffcc00; /* Change color on hover */
+    color: #ffcc00; 
 }
 
-/* General Styling */
+
 section {
     padding: 20px;
     background-color: white;
     margin: 20px 0;
 }
 
-/* Booking Form */
+
 form input, form textarea {
     width: 100%;
     padding: 10px;
@@ -585,7 +584,7 @@ button:hover {
     background-color: #ffcc00;
 }
 
-/* Services Table Styling */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -603,7 +602,7 @@ th {
     color: white;
 }
 
-/* Google Maps */
+
 iframe {
     border-radius: 10px;
     margin-top: 15px;
@@ -625,14 +624,13 @@ iframe {
     background-color: #1EBE57;
 }
 
-/* General Theme */
 body {
     font-family: Arial, sans-serif;
-    background-color: #111;  /* Dark background */
-    color: #ddd;  /* Light text */
+    background-color: #111; 
+    color: #ddd; 
 }
 
-/* Header & Navigation */
+
 header {
     background-color: #000;
     padding: 15px;
@@ -652,7 +650,7 @@ header {
 
 .nav-menu a {
     text-decoration: none;
-    color: #ffcc00;  /* Neon Yellow */
+    color: #ffcc00; 
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
@@ -660,10 +658,10 @@ header {
 }
 
 .nav-menu a:hover {
-    color: #ff5733;  /* Neon Orange */
+    color: #ff5733;
 }
 
-/* Section Styling */
+
 section {
     padding: 20px;
     background-color: #222;
@@ -672,7 +670,7 @@ section {
     max-width: 90%;
 }
 
-/* Services Table */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -691,7 +689,7 @@ th {
     background-color: #000;
 }
 
-/* Buttons */
+
 button {
     padding: 10px 20px;
     background-color: #ffcc00;
@@ -724,13 +722,13 @@ button:hover {
 }
 
 .social-icons a:hover {
-    transform: scale(1.1);  /* Slight zoom effect on hover */
+    transform: scale(1.1); 
 }
 
-/* Contact Section Styling */
+
 #contact {
-    background-color: #000;  /* Black background */
-    color: #ffcc00;  /* Neon Yellow text */
+    background-color: #000;  
+    color: #ffcc00; 
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -747,28 +745,28 @@ button:hover {
 }
 
 #contact a:hover {
-    color: #ff5733; /* Neon Orange */
+    color: #ff5733; 
     text-decoration: underline;
 }
 
-/* Center Contact Section */
+
 #contact {
-    background-color: #000;  /* Black background */
-    color: #ffcc00;  /* Neon Yellow text */
+    background-color: #000; 
+    color: #ffcc00;  
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     max-width: 800px;
-    margin: 40px auto; /* Centers the section */
-    box-shadow: 0 0 15px rgba(255, 204, 0, 0.5); /* Neon glow effect */
+    margin: 40px auto; 
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.5); 
 }
 
-/* Contact Text Styling */
+
 #contact h2, #contact h3, #contact p {
     font-weight: bold;
 }
 
-/* Contact Links */
+
 #contact a {
     color: #ffcc00;
     text-decoration: none;
@@ -776,18 +774,18 @@ button:hover {
 }
 
 #contact a:hover {
-    color: #ff5733; /* Neon Orange */
+    color: #ff5733; 
     text-decoration: underline;
 }
 
-/* Google Map Styling */
+
 #contact iframe {
     border-radius: 10px;
     width: 100%;
     height: 400px;
 }
 
-/* WhatsApp Button */
+
 .whatsapp-button {
     display: inline-block;
     background-color: #25D366;
@@ -805,7 +803,7 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* 🎬 Fade-in Animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -821,7 +819,7 @@ button:hover {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* 🌟 Button Glow Effect */
+
 button, .whatsapp-button {
     padding: 12px 24px;
     font-size: 18px;
@@ -831,16 +829,16 @@ button, .whatsapp-button {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5); /* Neon glow */
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5); 
 }
 
-/* Hover Glow Effect */
+
 button:hover, .whatsapp-button:hover {
     box-shadow: 0 0 20px rgba(255, 204, 0, 0.9);
     transform: scale(1.05);
 }
 
-/* WhatsApp Button Special Glow */
+
 .whatsapp-button {
     background-color: #25D366;
     color: white;
@@ -851,13 +849,13 @@ button:hover, .whatsapp-button:hover {
     box-shadow: 0 0 20px rgba(37, 211, 102, 0.8);
 }
 
-/* 🔥 Glow Effect for Links in Contact */
+
 #contact a:hover {
     text-decoration: underline;
     text-shadow: 0 0 8px rgba(255, 204, 0, 0.8);
 }
 
-/* ✨ Contact Section - Smooth Appearance */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -871,9 +869,8 @@ button:hover, .whatsapp-button:hover {
 
 #contact {
     animation: fadeIn 1s ease-in-out;
-}
 
-/* 🌟 Add Pulse Animation for Buttons */
+
 @keyframes pulse {
     0% {
         box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
@@ -980,42 +977,42 @@ button:hover {
     background-size: cover;
 }
 
-/* Style the navigation bar */
+
 nav {
     background-color: black;
     padding: 10px 0;
 }
 
-/* Remove default list styles */
+
 .nav-menu {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Display in a row */
-    justify-content: space-around; /* Spread items evenly */
+    display: flex; 
+    justify-content: space-around; 
 }
 
-/* Style the menu items */
+
 .nav-menu li {
-    margin: 0 30px; /* Increase spacing between items */
+    margin: 0 30px; 
 }
 
-/* Style the links */
+
 .nav-menu a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-weight: bold; /* Make text bold */
+    font-weight: bold; 
     padding: 10px 15px;
     transition: background 0.3s ease-in-out;
 }
 
-/* Hover effect */
+
 .nav-menu a:hover {
     background-color: gray;
     border-radius: 5px;
 }
 
 nav-menu a {
-    pointer-events: auto; /* Enables clicking */
+    pointer-events: auto; 
 }
